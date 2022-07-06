@@ -1,0 +1,18 @@
+<html>
+<head>
+	<script>
+		var redirect_url = "http://localhost:9000/verify"
+		var name = "Zk-Writer"
+		function login(){
+			window.location = `http://localhost:3002/login?client_name=${name}&redirect_url=${redirect_url}`
+		}
+	</script>
+</head>
+<body>
+	<center>
+		<h1> Anonymous Author </h1>
+		<i> Login to start, you anonymous journey of writing... </i>
+		<button onclick=login()> Login </button>
+	</center>
+</body>
+</html>
